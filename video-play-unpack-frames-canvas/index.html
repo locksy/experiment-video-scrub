@@ -9,7 +9,11 @@
         <link rel="preload" href="../videos/ForBiggerBlazes.mp4" as="video" />
     </head>
     <body>
-        <div id="content">
+       	<section class="canvas-container" id="canvas-container">
+            <input name="video-url" type="hidden" value="../videos/ForBiggerBlazes.mp4" />
+
+        </section>
+	<div id="content">
             <p><a href="../">back</a></p>
             <h1>
                 Video Scrubbing
@@ -20,9 +24,7 @@
             <section>
                 <pre id="comments"></pre>
             </section>
-            <section class="canvas-container" id="canvas-container">
-                <input name="video-url" type="hidden" value="../videos/ForBiggerBlazes.mp4" />
-            </section>
+           
         </div>
         <script src="../common/utils.js"></script>
         <script src="../common/scroll-observable.js"></script>

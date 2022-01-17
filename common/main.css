@@ -19,7 +19,7 @@ a {
 }
 
 #content {
-    position: top; ;
+    position: absolute; border-left: 0; border-top: 0;
     max-width: calc(100%);
 }
 

@@ -20,13 +20,13 @@ a {
 
 #content {
     position: fixed;
-    max-width: calc(100% - 40px);
+    max-width: calc(100%);
 }
 
 .video-container,
 .canvas-container {
-    max-width: calc(100% - 40px);
-    max-height: 80vh;
+    max-width: calc(100%);
+    max-height: 100vh;
     height: auto;
 }
 

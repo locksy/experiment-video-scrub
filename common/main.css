@@ -19,6 +19,8 @@ a {
 }
 
 #content {
+    justify-content: center; 
+    align-items: center;
     position: fixed;
     max-width: calc(100% - 20px);
 }

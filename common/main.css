@@ -20,19 +20,19 @@ a {
 
 #content {
     position: fixed;
-    max-width: calc(100% - 20px);
+    max-width: calc(100% - 40px);
 }
 
 .video-container,
 .canvas-container {
-    max-width: calc(100% - 20px);
+    max-width: calc(100% - 40px);
     max-height: 80vh;
     height: auto;
 }
 
 .canvas {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .cursor-loading {

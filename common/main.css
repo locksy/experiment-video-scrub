@@ -19,13 +19,13 @@ a {
 }
 
 #content {
+    align: center;
     position: fixed;
     max-width: calc(100% - 20px);
 }
 
 .video-container,
 .canvas-container {
-    align-self: center;  
     max-width: calc(100% - 20px);
     max-height: fit-content;
     height: 100%;

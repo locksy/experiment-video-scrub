@@ -19,7 +19,6 @@ a {
 }
 
 #content {
-    align: center;
     position: fixed;
     max-width: calc(100% - 20px);
 }
